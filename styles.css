@@ -31,14 +31,16 @@ h2{text-align: center;
 
  h3{text-align: center;
           color: white;
-          font-family: courier;
+          font-family: Gavlji;
           font-size: 400%
 }
 
 h4{text-align: center;
   color: saddlebrown;
   font-family: Gavlji;
-  font-size: 160%
+  font-size: 180%
+
+
 }
 
 a{color: blue;
@@ -90,12 +92,22 @@ body{
 
 }
 
-
-img{
-  width:30%;
+.hero button{
+  font-family: 'Gavlji';
+  letter-spacing: 1.2px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+  border: 1px solid white;
+  border-radius: 5px;
+  padding:10px;
+  color: green;
+  font-size: 1.5em;
 }
 
 
+img{
+  width:50%;
+
+}
 
 /* --------
 START Nav Styles
@@ -103,7 +115,7 @@ START Nav Styles
 
 /* These styles are for background color to the top navigation */
 .topnav {
- background-color: #72BF3E;
+ background-color: #92C228;
  overflow: hidden;
  text-align: center;
  box-sizing: border-box;
@@ -113,7 +125,7 @@ START Nav Styles
 .topnav a {
  color: white;
  text-decoration: none;
- font-family: sans-serif;
+ font-family: Gavlji;
  font-size: 17px;
   /* Leave the styles below alone */
    display: inline-block;
@@ -123,7 +135,7 @@ START Nav Styles
 
 /* These styles when mouse hovers over links */
 .topnav a:hover {
- background-color: #ddd;
+ background-color: mediumseagreen;
  color: black;
 }
 
