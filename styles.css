@@ -88,11 +88,15 @@ body{
 /*   change the color to match your triangles */
   background: #fec679;
   width:100%;
+  margin-top: -1px;
 /* You won't need this height when you add in your website content. THis is here b/c I don't have enough content for the wrapper to go all the way down the screen.   */
 
 }
 
-.hero button{
+link{
+      align-content: center;}
+
+. button{
   font-family: 'Gavlji';
   color: green
   letter-spacing: 1.2px;
