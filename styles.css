@@ -93,9 +93,6 @@ body{
 
 }
 
-link{
-      align-content: center;}
-
 . button{
   font-family: 'Gavlji';
   color: green
@@ -113,8 +110,14 @@ img{
   width:50%;
 
 
+}
+
+
+input{text-align: center;
+      
 
 }
+
 
  .gallery{
     width: 100%;
