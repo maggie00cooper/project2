@@ -12,7 +12,7 @@ img{
 #top{
     text-align: center;
     color: blue;
-    font-family: futura, sans-serif;
+    font-family: Georgia, serif;
 }
 
 h1{text-align: center;
@@ -31,13 +31,13 @@ h2{text-align: center;
 
  h3{text-align: center;
           color: white;
-          font-family: Gavlji;
+          font-family: Georgia, serif;
           font-size: 400%
 }
 
 h4{text-align: center;
   color: saddlebrown;
-  font-family: Gavlji;
+  font-family: Georgia, serif;
   font-size: 200%
 
 
@@ -55,7 +55,9 @@ li{line-height: 1.5em;
 
 a:hover{color: lightblue;}
 
-p{text-align: center;}
+p{text-align: center;
+ font-family: Georgia, serif;
+}
 
 .center {
 display: block;
@@ -94,7 +96,7 @@ body{
 }
 
 . button{
-  font-family: 'Gavlji';
+  font-family: 'Georgia, serif';
   color: green
   letter-spacing: 1.2px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
@@ -140,7 +142,7 @@ START Nav Styles
 .topnav a {
  color: white;
  text-decoration: none;
- font-family: Gavlji;
+ font-family: Georgia, serif;
  font-size: 17px;
   /* Leave the styles below alone */
    display: inline-block;
