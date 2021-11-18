@@ -1,5 +1,12 @@
+@font-face{
+    font-family: 'Galvji';
+    src: url(Galvji-01.ttf);
+}
+
 body{
     background-color: white;
+    margin:0;
+    font-family: 'Galvji', sans-serif;
 }
 
 img{
@@ -15,13 +22,15 @@ img{
     font-family: Georgia, serif;
 }
 
-h1{text-align: center;
+h1{
+  text-align: center;
   color: black;
-  font-family: Gavlji, black;
+  font-family: 'Gavlji', sans-serif;
   font-size: 50%;
 }
 
-h2{text-align: center;
+h2{
+  text-align: center;
         color: tomato;
         font-family: signpainter;
         font-size: 300%;
@@ -29,15 +38,17 @@ h2{text-align: center;
       }
 
 
- h3{text-align: center;
+ h3{
+   text-align: center;
           color: white;
-          font-family: Georgia, serif;
+          font-family: 'Galvji', serif;
           font-size: 400%
 }
 
-h4{text-align: center;
+h4{
+  text-align: center;
   color: saddlebrown;
-  font-family: Georgia, serif;
+  font-family: 'Galvji', sans-serif;
   font-size: 200%
 
 
@@ -55,18 +66,21 @@ li{line-height: 1.5em;
 
 a:hover{color: lightblue;}
 
-p{text-align: center;
- font-family: Georgia, serif;
+p{
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Galvji', sans-serif;
 }
 
 .center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-link{font-size: 250%;
+link{
+  font-size: 250%;
 }
 
 body{
@@ -95,37 +109,73 @@ body{
 
 }
 
-. button{
-  font-family: 'Georgia, serif';
-  color: green
+button{
+  /* font-family: Georgia, serif; */
+  color: green;
   letter-spacing: 1.2px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
-  border: 1px solid white;
-  border-radius: 5px;
-  padding:10px;
+  /* border: 1px solid white; */
+  /* border-radius: 5px; */
+  border:none;
+  padding:12px;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.3em;
+}
+
+button:hover{
+    background: none;
 }
 
 
-img{
-  width:50%;
+input{
+  text-align: center;
+
+}
+
+.gallery{
+   width: 100%;
+
+
+}
+.about{
+  width: 100%;
+}
+
+
+.map{
+  width: 95%;
+  margin: auto;
+
+
+
+}
+@media only screen and (min-width: 700px){
+
+  .map{
+    display:inline-block;
+    width:48%;
+    margin-left: 0;
+    margin-right: 0; }
+
+  .location{
+    display:inline-block;
+    width:48%;
+    margin:auto;
+  }
+
 
 
 }
 
 
-input{text-align: center;
 
 
+
+
+
+footer{
+  padding: 50px;
 }
-
-
- .gallery{
-    width: 100%;
-
- }
-
 /* --------
 START Nav Styles
 -------- */
@@ -142,7 +192,7 @@ START Nav Styles
 .topnav a {
  color: white;
  text-decoration: none;
- font-family: Georgia, serif;
+ font-family: 'Galvji', sans-serif;
  font-size: 17px;
   /* Leave the styles below alone */
    display: inline-block;
@@ -170,10 +220,21 @@ END Nav Styles for MOBILE
 @media only screen and (min-width:600px){
   #logo{
     width:500px;
-
-
   }
 
+  .row{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 30px;
+        grid-gap: 20px;
+
+    }
+    .col{
+        width: 33%;
+    }
 }
 
 /* --------
