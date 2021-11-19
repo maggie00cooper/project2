@@ -149,8 +149,6 @@ input{
   width: 95%;
   margin: auto;
 
-
-
 }
 @media only screen and (min-width: 700px){
 
@@ -214,8 +212,8 @@ input{
     }
     .button{
       /* CHANGE COLORS bellow */
-      background: #linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
-      border: 1px solid #green;
+      background: #tomato;
+      border: 1px solid #white;
       /* Rounded corners */
       border-radius: 4px;
       /* Text color */
@@ -227,21 +225,7 @@ input{
     }
   /*        END MOBILE FORM STYLES */
 
-    @media only screen and (min-width: 1000px) {
- /*         START DESKTOP FORM STYLES */
-      .form-container{
- /*         CHANGE WIDTH of FORM TO YOUR PREFERENCE */
-        width:50%;
-      }
-      input{
-         /* CHANGE WIDTH TO YOUR PREFERENCE */
-        width:60%;
-      }
-      button{
-        margin-top: 2%;
-        margin-bottom: 2%;
-      }
-    }
+
 
 
 
@@ -291,6 +275,23 @@ END Nav Styles for MOBILE
 
 
 /*start media query*/
+
+@media only screen and (min-width: 1000px) {
+/*         START DESKTOP FORM STYLES */
+  .form-container{
+/*         CHANGE WIDTH of FORM TO YOUR PREFERENCE */
+    width:50%;
+  }
+  input{
+     /* CHANGE WIDTH TO YOUR PREFERENCE */
+    width:60%;
+  }
+  button{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+
 @media only screen and (min-width:600px){
   #logo{
     width:500px;
