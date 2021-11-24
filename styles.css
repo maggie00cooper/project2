@@ -31,18 +31,19 @@ h1{
 
 h2{
   text-align: center;
-        color: tomato;
-        font-family: signpainter;
-        font-size: 300%;
+  color: tomato;
+  font-family: signpainter;
+  font-size: 300%;
 
-      }
+}
 
 
- h3{
+h3{
    text-align: center;
-          color: tomato;
-          font-family: 'Galvji', sans-serif;
-          font-size: 400%
+   color: tomato;
+   font-family: 'Galvji', sans-serif;
+   font-size: 400%
+
 }
 
 h4{
@@ -50,7 +51,6 @@ h4{
   color: saddlebrown;
   font-family: 'Galvji', sans-serif;
   font-size: 200%
-
 
 }
 
@@ -150,7 +150,6 @@ input{
   margin-left: auto;
   margin-right: auto;
 
-
 }
 
 .map{
@@ -172,19 +171,20 @@ input{
   }
 
 
-
-
 }
 
 /* START MOBILE FORM STYLES */
     .form-container{
 /*       TO CENTER add AUTO for margin right and left*/
       margin: 20px auto;
+      margin-left: auto;
+      margin-right: auto;
 /*  WIDTH 100%  FOR MOBILE DEVICES*/
       width:90%;
       display:block;
       font-size:1em;
     }
+
     form p{
       margin-bottom:5px;
 
