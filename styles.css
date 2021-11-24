@@ -144,6 +144,14 @@ input{
   width: 100%;
 }
 
+.menu{
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
 
 .map{
   width: 95%;
@@ -162,6 +170,7 @@ input{
     width:48%;
     margin:auto;
   }
+
 
 
 
